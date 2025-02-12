@@ -13,8 +13,8 @@ print("3. Tijeras")
 
 option_human = int(input("Selecciona una opcion para jugar: ")) - 1
 
-print("Tu has seleccionado: ", hands_forms[option_human])
-print("El bot ha seleccionado: ", hands_forms[option_bot])
+print(f"Tu has seleccionado: {hands_forms[option_human]}")
+print(f"El bot ha seleccionado { hands_forms[option_bot]}")
 
 if(option_human == option_bot):
     print("Empate")
